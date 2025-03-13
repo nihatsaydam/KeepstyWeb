@@ -368,7 +368,7 @@ function showSuccessPopup() {
   successPopup.classList.add('popup-overlay');
   successPopup.innerHTML = `
     <div class="popup-content success">
-      <img src="assets/images/keepsty-logo.png" alt="Keepsty Logo" class="keepsty-logo">
+      <img src="assets/icons/laundry.png" alt="Keepsty Logo" class="keepsty-logo">
       <p class="success-message">
         You are all set!<br>
       </p>
