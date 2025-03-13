@@ -408,7 +408,7 @@ function showConfirmationPopup() {
       max-width: 350px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     ">
-      <img src="assets/images/keepsty-logo.png" alt="Keepsty Logo" class="keepsty-logo" style="width: 120px; height: auto;">
+      <img src="assets/icons/housekeeping.png" alt="Keepsty Logo" class="keepsty-logo" style="width: 120px; height: auto;">
       <h3 class="success-title" style="margin-top: 10px; font-size: 18px;">You are all set!</h3>
     </div>
   `;
