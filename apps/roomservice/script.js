@@ -320,11 +320,11 @@ function confirmServiceTime(minutes, label) {
   const now = new Date();
   const currentHour = now.getHours();
 
-  // Hizmet verilmeyen saat aralığını kontrol et (00:00 ile 09:00 arası)
-  if (currentHour >= 0 && currentHour < 9) {
-        alert("We are currently not providing service. Our service hours are between 09:00 and 00:00.");
-        return; // Fonksiyondan erken çık, kaydetme işlemini yapma
-  }
+   // Hizmet verilmeyen saat aralığını kontrol et (00:00 ile 09:00 arası)
+   if (currentHour >= 0 && currentHour < 9) {
+    alert("We are currently not providing service. Our service hours are between 09:00 and 00:00.");
+    return; // Fonksiyondan erken çık, kaydetme işlemini yapma
+}
 
 
   console.log(`Service time set to ${minutes} minutes, option: ${label}`);
@@ -351,7 +351,7 @@ function showSuccessPopup() {
   successPopup.classList.add('popup-overlay');
   successPopup.innerHTML = `
     <div class="popup-content success">
-      <img src="assets/images/keepsty-logo.png" alt="Keepsty Logo" class="keepsty-logo">
+      <img src="assets/icons/keepsty-character.png" alt="Keepsty Logo" class="keepsty-logo">
       <p class="success-message">
         You are all set!<br>
       </p>
