@@ -469,57 +469,16 @@ input[type="date"] {
   z-index: 100;
 }
 
-#success-popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam koyu arka plan */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000; /* Üstte görünmesi için */
-  backdrop-filter: blur(4px); /* Arka planı bulanıklaştırır */
-}
-
-
-.keepsty-character {
-  width: 160px;
-  height: auto;
-  margin-bottom: 15px;
-}
   
-  .keepsty-logo {
-    width: 160px;
-    height: auto;
-    margin-bottom: 15px;
-  }
-  
-  .success-title {
-    font-size: 30px;
-    font-weight: bold;
-    color: #5a4b3b;
-  }
-  
-/* Pop-up arka planı */
-#time-popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%; /* Genel genişlik */
-  max-width: 350px; /* Masaüstü için maksimum genişlik */
-  background-color: #fff;
-  border: 2px solid #d8cdbf;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-  padding: 15px; /* İç boşluğu küçült */
-  font-family: 'Poppins', sans-serif;
-  display: none;
-}
+/* "You’re All Done!" Başlığı */
+.success-title {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffe4b5; /* Hafif krem tonu */
 
+}
 
 /* Pop-up içeriği */
 .popup-content {
@@ -548,6 +507,8 @@ input[type="date"] {
   font-size: 16px;
 }
 
+
+
 /* Pop-up butonları */
 .popup-buttons {
   display: flex;
@@ -559,7 +520,7 @@ input[type="date"] {
   padding: 10px 20px;
   font-size: 14px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -719,6 +680,7 @@ input[type="date"] {
   display: none; /* Başlangıçta gizli */
   text-align: center;
 }
+
 
 /* Başlık Stili */
 #time-popup h3 {
@@ -1412,4 +1374,32 @@ input[type="date"] {
   padding: 20px;
   border-radius: 8px;
   text-align: center;
+}
+
+
+#success-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam koyu arka plan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Üstte görünmesi için */
+  backdrop-filter: blur(4px); /* Arka planı bulanıklaştırır */
+}
+
+
+.keepsty-character {
+  width: 160px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Keepsty Logosu */
+.keepsty-logo {
+  width: 120px;
+  margin: 20px auto;
 }
