@@ -9,6 +9,9 @@ let selectedIssue = "";
 let chatHistory = [];
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  showItemList();
+});
 
 function showItemList() {
   document.getElementById('menu').style.display = 'none';
