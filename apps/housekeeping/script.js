@@ -117,7 +117,7 @@ document.getElementById("confirm-time") &&
     try {
       const username = localStorage.getItem("username") || "defaultUsername";
       const roomNumber = localStorage.getItem("roomNumber") || "defaultRoomNumber";
-      const response = await fetch('http://localhost:3000/save-cleaning-option', {
+      const response = await fetch('https://keepstyback.onrender.com/save-cleaning-option', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -281,7 +281,7 @@ async function saveCartData() {
   const username = localStorage.getItem("username") || "defaultUsername";
   const roomNumber = localStorage.getItem("roomNumber") || "defaultRoomNumber";
   try {
-    const response = await fetch('http://localhost:3000/save-cart', {
+    const response = await fetch('https://keepstyback.onrender.com/save-cart', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
