@@ -321,7 +321,7 @@ function confirmServiceTime(minutes, label) {
   const currentHour = now.getHours();
 
    // Hizmet verilmeyen saat aralığını kontrol et (00:00 ile 09:00 arası)
-   if (currentHour >= 23 && currentHour < 10) {
+   if (currentHour >= 22 && currentHour < 10) {
     alert("We are currently not providing service. Our service hours are between 09:00 and 00:00.");
     return; // Fonksiyondan erken çık, kaydetme işlemini yapma
 }
