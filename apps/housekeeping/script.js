@@ -40,8 +40,8 @@ function selectLanguage(langCode) {
 function showWelcomePopup() {
   const messages = {
     en: `
-      Welcome to Keepsty Housekeeping! I’m here to make your stay as comfortable and seamless as possible.
-      Whether you need fresh towels, room cleaning, or any other housekeeping services, I’m just a message away.
+      Welcome to Keepsty Housekeeping! I'm here to make your stay as comfortable and seamless as possible.
+      Whether you need fresh towels, room cleaning, or any other housekeeping services, I'm just a message away.
     `,
     tr: `
       Keepsty Housekeeping'e hoş geldiniz! Konaklamanızı mümkün olduğunca konforlu ve sorunsuz hale getirmek için buradayım.
@@ -102,9 +102,18 @@ let selectedCleanOption = "";
 function selectCleanOption(optionName) {
   selectedCleanOption = optionName;
   console.log("✅ Güncellenen Temizlik Seçeneği:", selectedCleanOption);
-  // Seçilen butonu vurgula
-  document.querySelectorAll(".clean-option").forEach(btn => btn.classList.remove("selected"));
-  document.getElementById(optionName).classList.add("selected");
+  
+  // Tüm butonlardan selected class'ını kaldır
+  document.querySelectorAll("#clean-options button").forEach(btn => {
+    btn.classList.remove("selected");
+  });
+  
+  // Seçilen butonun data-option değerine göre bul ve selected class'ı ekle
+  const dataOption = optionName.toLowerCase().replace(' ', '');
+  const selectedButton = document.querySelector(`button[data-option="${dataOption}"]`);
+  if (selectedButton) {
+    selectedButton.classList.add("selected");
+  }
 }
 
 document.getElementById("confirm-time") &&
@@ -485,10 +494,10 @@ function translatePopupTexts(language) {
       if (data.popup) {
         document.querySelector("#time-popup h3").textContent = data.popup.cleaningTitle;
         document.querySelector("#clean-options h4").textContent = data.popup.cleaningOptions;
-        document.querySelector("#clean-options button:nth-child(2)").textContent = data.popup.room;
-        document.querySelector("#clean-options button:nth-child(3)").textContent = data.popup.bathroom;
-        document.querySelector("#clean-options button:nth-child(4)").textContent = data.popup.wholeRoom;
-        document.querySelector("#clean-options button:nth-child(5)").textContent = data.popup.refresh;
+        document.querySelector('button[data-option="room"]').textContent = data.popup.room;
+        document.querySelector('button[data-option="bathroom"]').textContent = data.popup.bathroom;
+        document.querySelector('button[data-option="wholeroom"]').textContent = data.popup.wholeRoom;
+        document.querySelector('button[data-option="refresh"]').textContent = data.popup.refresh;
         document.getElementById("confirm-time").textContent = data.popup.confirm;
         document.getElementById("cancel-time").textContent = data.popup.cancel;
       } else {

@@ -53,7 +53,7 @@
       <img src="assets/icons/action3.png" alt="Chat">
       <p>Chat</p>
     </div>
-    <div class="action-item">
+    <div class="action-item" onclick="goBack()">
       <img src="assets/icons/action4.png" alt="Back">
       <p>Back</p>
     </div>
@@ -70,7 +70,7 @@
     <!-- Menü -->
     <div id="menu">
       <div class="menu-container">
-        <div class="menu-options">
+        <div class="menu-options scroll-container">
           <div class="menu-option">
             <img src="assets/icons/item-list.png" alt="Item List">
             <h3>Item List Request</h3>
@@ -90,7 +90,7 @@
 
     <!-- Item List Section -->
     <div id="item-list-section" style="display: none;">
-      <div class="category-cards-container" id="item-list"></div>
+      <div class="category-cards-container scroll-container" id="item-list"></div>
     </div>
 
     <!-- Chatbot Alanı -->
@@ -121,15 +121,15 @@
         <h3>Select Cleaning Option</h3>
         <div id="clean-options">
           <h4>Cleaning Options:</h4>
-          <button onclick="selectCleanOption('Room')">Room</button>
-          <button onclick="selectCleanOption('Bathroom')">Bathroom</button>
-          <button onclick="selectCleanOption('Whole Room')">Whole Room</button>
-          <button onclick="selectCleanOption('Refresh')">Refresh</button>
+          <button onclick="selectCleanOption('Room')" data-option="room" id="room" class="clean-option">Room</button>
+          <button onclick="selectCleanOption('Bathroom')" data-option="bathroom" id="bathroom" class="clean-option">Bathroom</button>
+          <button onclick="selectCleanOption('Whole Room')" data-option="wholeroom" id="wholeroom" class="clean-option">Whole Room</button>
+          <button onclick="selectCleanOption('Refresh')" data-option="refresh" id="refresh" class="clean-option">Refresh</button>
         </div>
       
         <div class="popup-buttons">
           <button id="confirm-time" class="keepsty-button">Confirm</button>
-          <button id="cancel-time" class="keepsty-button cancel" onclick="hideTimePopup()">Cancel</button>
+          <button id="cancel-time" class="keepsty-button cancel">Cancel</button>
         </div>
       </div>
     </div>

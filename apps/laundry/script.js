@@ -119,7 +119,6 @@ function showCategoryItems(category) {
     chooseButton.textContent = 'Choose';
     chooseButton.addEventListener('click', () => {
       addToCart(item);
-      showCartScreen();
     });
     itemCard.appendChild(chooseButton);
 
@@ -130,22 +129,36 @@ function showCategoryItems(category) {
 }
 
 function goBack() {
-  if (previousScreens.length > 0) {
-    const lastScreenId = previousScreens.pop(); // Son açılan ekranı al
-
-    document.querySelectorAll('.screen-active').forEach(screen => {
-      screen.style.display = 'none';
-      screen.classList.remove('screen-active');
-    });
-
-    const previousScreen = document.getElementById(lastScreenId);
-    if (previousScreen) {
-      previousScreen.style.display = 'block';
-      previousScreen.classList.add('screen-active');
-    }
-  } else {
-    showScreen('menu'); // Eğer önceki ekran yoksa, ana ekrana dön
+  // Kategori detaylarında mıyız kontrol et
+  const itemListDiv = document.getElementById('item-list');
+  const itemsContainer = itemListDiv.querySelector('.items-container');
+  
+  if (itemsContainer) {
+    // Kategori içindeyiz, ana kategori listesine dönelim
+    console.log("Kategori içinden ana listeye dönülüyor");
+    showItemList();
+    return;
   }
+  
+  // Tüm ekranları ve popupları temizle
+  document.querySelectorAll('.screen-active').forEach(screen => {
+    screen.style.display = 'none';
+    screen.classList.remove('screen-active');
+  });
+  
+  document.querySelectorAll('.popup-overlay').forEach(popup => {
+    popup.remove();
+  });
+  
+  // Sepet ekranını kapat
+  document.getElementById('cart-screen').style.display = 'none';
+  document.getElementById('chatbot').style.display = 'none';
+  
+  // Ürün listesi ekranını aç
+  document.getElementById('item-list-section').style.display = 'block';
+  document.getElementById('item-list-section').classList.add('screen-active');
+  
+  console.log("Back tuşuna basıldı: Ürün listesine dönülüyor");
 }
 
 
@@ -163,11 +176,45 @@ function addToCart(product) {
 }
 
 function showAddToCartNotification() {
-  const notification = document.getElementById('add-to-cart-notification');
-  notification.style.display = 'block';
+  // Mevcut bildirimi temizle (eğer varsa)
+  const existingNotification = document.getElementById('add-to-cart-notification');
+  if (existingNotification) {
+    existingNotification.remove();
+  }
+  
+  // Yeni bildirimi oluştur
+  const notification = document.createElement('div');
+  notification.id = 'add-to-cart-notification';
+  notification.classList.add('notification');
+  notification.textContent = 'Ürün sepetinize eklendi!';
+  
+  // Bildirimin stilini ayarla
+  notification.style.position = 'fixed';
+  notification.style.top = '20px';
+  notification.style.right = '20px';
+  notification.style.backgroundColor = '#9b795c'; // İstenen kahverengi ton
+  notification.style.color = 'white';
+  notification.style.padding = '15px';
+  notification.style.borderRadius = '5px';
+  notification.style.boxShadow = '0 4px 8px rgba(0,0,0,0.2)';
+  notification.style.zIndex = '9999';
+  notification.style.fontWeight = 'bold';
+  
+  // Bildirimi DOM'a ekle
+  document.body.appendChild(notification);
+  
+  // Bildirimi 3 saniye sonra gizle
   setTimeout(() => {
-    notification.style.display = 'none';
-  }, 3000); // Bildirim 3 saniye sonra kaybolur
+    notification.style.opacity = '0';
+    notification.style.transition = 'opacity 0.5s ease';
+    
+    // 0.5 saniye sonra tamamen kaldır
+    setTimeout(() => {
+      if (notification.parentNode) {
+        notification.parentNode.removeChild(notification);
+      }
+    }, 500);
+  }, 3000);
 }
 
 function updateCartDisplay() {

@@ -10,7 +10,26 @@ let chatHistory = [];
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  showItemList();
+  // Splash screen'i göster, diğer içerikleri gizle
+  document.getElementById('splash-screen').style.display = 'flex';
+  document.getElementById('menu').style.display = 'none';
+  document.getElementById('item-list-section').style.display = 'none';
+  document.getElementById('cart-screen').style.display = 'none';
+  document.getElementById('chatbot').style.display = 'none';
+
+  // Kabul Et butonu - Room Service'i göster
+  document.getElementById('accept-button').addEventListener('click', () => {
+    // Splash screen'i gizle
+    document.getElementById('splash-screen').style.display = 'none';
+    // Menü içeriğini göster
+    showItemList();
+  });
+
+  // Reddet butonu - Ana sayfaya dön
+  document.getElementById('reject-button').addEventListener('click', () => {
+    // Ana sayfaya yönlendir
+    window.location.href = '../../index.html#card-screen';
+  });
 });
 
 function showItemList() {
@@ -86,8 +105,6 @@ function showCategoryItems(category) {
   const itemListDiv = document.getElementById('item-list');
   itemListDiv.innerHTML = '';
 
-
-
   const itemsContainer = document.createElement('div');
   itemsContainer.classList.add('items-container');
 
@@ -115,7 +132,6 @@ function showCategoryItems(category) {
     chooseButton.textContent = 'Choose';
     chooseButton.addEventListener('click', () => {
       addToCart(item);
-      showCartScreen();
     });
     itemCard.appendChild(chooseButton);
 
@@ -126,21 +142,39 @@ function showCategoryItems(category) {
 }
 
 function goBack() {
+  // Önce geçerli ekranı kontrol edelim
+  const currentScreen = document.querySelector('.screen-active');
+  console.log("Back tuşuna basıldı, aktif ekran:", currentScreen ? currentScreen.id : "bulunamadı");
+  console.log("Önceki ekranlar:", JSON.stringify(previousScreens));
+  
   if (previousScreens.length > 0) {
     const lastScreenId = previousScreens.pop(); // Son açılan ekranı al
-
+    console.log("Önceki ekrana dönülüyor:", lastScreenId);
+    
+    // Şu an aktif olan tüm ekranları gizle
     document.querySelectorAll('.screen-active').forEach(screen => {
       screen.style.display = 'none';
       screen.classList.remove('screen-active');
     });
-
-    const previousScreen = document.getElementById(lastScreenId);
-    if (previousScreen) {
-      previousScreen.style.display = 'block';
-      previousScreen.classList.add('screen-active');
+    
+    // 'menu' yerine doğrudan item-list-section'a dön - bu daha güvenli
+    if (lastScreenId === 'menu') {
+      showItemList(); // Menu boş olduğu için direk item liste dön
+    } else {
+      // Önceki ekranı bul ve göster
+      const previousScreen = document.getElementById(lastScreenId);
+      if (previousScreen) {
+        previousScreen.style.display = 'block';
+        previousScreen.classList.add('screen-active');
+        console.log(`Returning to screen: ${lastScreenId}`);
+      } else {
+        console.error(`Previous screen not found: ${lastScreenId}`);
+        showItemList(); // Eğer önceki ekran bulunamazsa ana liste ekranına dön
+      }
     }
   } else {
-    showScreen('menu'); // Eğer önceki ekran yoksa, ana ekrana dön
+    console.log('No previous screens in history, showing item list');
+    showItemList(); // Eğer önceki ekran yoksa, ana ekrana dön
   }
 }
 
@@ -159,11 +193,45 @@ function addToCart(product) {
 }
 
 function showAddToCartNotification() {
-  const notification = document.getElementById('add-to-cart-notification');
-  notification.style.display = 'block';
+  // Mevcut bildirimi temizle (eğer varsa)
+  const existingNotification = document.getElementById('add-to-cart-notification');
+  if (existingNotification) {
+    existingNotification.remove();
+  }
+  
+  // Yeni bildirimi oluştur
+  const notification = document.createElement('div');
+  notification.id = 'add-to-cart-notification';
+  notification.classList.add('notification');
+  notification.textContent = 'Ürün sepetinize eklendi!';
+  
+  // Bildirimin stilini ayarla
+  notification.style.position = 'fixed';
+  notification.style.top = '20px';
+  notification.style.right = '20px';
+  notification.style.backgroundColor = '#9b795c'; // İstenen kahverengi ton
+  notification.style.color = 'white';
+  notification.style.padding = '15px';
+  notification.style.borderRadius = '5px';
+  notification.style.boxShadow = '0 4px 8px rgba(0,0,0,0.2)';
+  notification.style.zIndex = '9999';
+  notification.style.fontWeight = 'bold';
+  
+  // Bildirimi DOM'a ekle
+  document.body.appendChild(notification);
+  
+  // Bildirimi 3 saniye sonra gizle
   setTimeout(() => {
-    notification.style.display = 'none';
-  }, 3000); // Bildirim 3 saniye sonra kaybolur
+    notification.style.opacity = '0';
+    notification.style.transition = 'opacity 0.5s ease';
+    
+    // 0.5 saniye sonra tamamen kaldır
+    setTimeout(() => {
+      if (notification.parentNode) {
+        notification.parentNode.removeChild(notification);
+      }
+    }, 500);
+  }, 3000);
 }
 
 function updateCartDisplay() {

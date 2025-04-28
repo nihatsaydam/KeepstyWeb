@@ -466,7 +466,7 @@ function showOptions() {
           console.log('Payload to be sent:', payload);
         
           // Veriyi sunucuya gönderin
-          fetch('http://localhost:3000/saveResponse', {
+          fetch('https://keepstyback.onrender.com/saveResponse', {
 
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -479,7 +479,7 @@ function showOptions() {
         
         
         function fetchRoomMessages(roomNumber) {
-          fetch(`http://localhost:3000/getChatLogsByRoom/${roomNumber}`)
+          fetch(`https://keepstyback.onrender.com/getChatLogsByRoom/${roomNumber}`)
           .then((response) => response.json())
             .then((data) => {
               console.log(`Messages for room ${roomNumber}:`, data);
