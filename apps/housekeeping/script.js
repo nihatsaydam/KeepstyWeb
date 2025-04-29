@@ -84,6 +84,10 @@ function showWelcomePopup() {
 // Temizlik Pop-up İşlemleri (Opsiyonel)
 // ============================
 function showTimePopup() {
+  // Preload the logo image when popup opens
+  const preloadImage = new Image();
+  preloadImage.src = "assets/images/keepsty-logo.png";
+  
   document.getElementById("time-popup").style.display = "flex";
 }
 function hideTimePopup() {
@@ -104,7 +108,8 @@ function selectCleanOption(optionName) {
   console.log("✅ Güncellenen Temizlik Seçeneği:", selectedCleanOption);
   
   // Tüm butonlardan selected class'ını kaldır
-  document.querySelectorAll("#clean-options button").forEach(btn => {
+  const buttons = document.querySelectorAll("#clean-options button");
+  buttons.forEach(btn => {
     btn.classList.remove("selected");
   });
   
@@ -113,38 +118,12 @@ function selectCleanOption(optionName) {
   const selectedButton = document.querySelector(`button[data-option="${dataOption}"]`);
   if (selectedButton) {
     selectedButton.classList.add("selected");
+    console.log("Button selected:", selectedButton.id);
+  } else {
+    console.error("Could not find button with data-option:", dataOption);
   }
 }
 
-document.getElementById("confirm-time") &&
-  (document.getElementById("confirm-time").onclick = async () => {
-    if (!selectedCleanOption) {
-      alert("Please select a cleaning option!");
-      return;
-    }
-    // Kullanıcı bilgileri ve seçilen temizlik seçeneği sunucuya gönderilecek
-    try {
-      const username = localStorage.getItem("username") || "defaultUsername";
-      const roomNumber = localStorage.getItem("roomNumber") || "defaultRoomNumber";
-      const response = await fetch('https://keepstyback.onrender.com/save-cleaning-option', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          username: username,
-          roomNumber: roomNumber,
-          cleaningOption: selectedCleanOption,
-          timestamp: new Date().toISOString()
-        })
-      });
-      const result = await response.json();
-      console.log("Data saved:", result);
-      showConfirmationPopup();
-      hideTimePopup();
-    } catch (error) {
-      console.error("Error saving cleaning option:", error);
-      alert("Failed to save cleaning option, please try again later.");
-    }
-  });
 document.getElementById("cancel-time") && (document.getElementById("cancel-time").onclick = hideTimePopup);
 document.addEventListener("DOMContentLoaded", () => {
   const timeOptionsOutside = document.querySelectorAll(".quick-options-outside");
@@ -407,7 +386,7 @@ function showConfirmationPopup() {
     </div>
   `;
   document.body.appendChild(successPopup);
-  setTimeout(closeSuccessPopup, 3000);
+  setTimeout(closeSuccessPopup, 1500);
 }
 
 function closeSuccessPopup() {
@@ -435,12 +414,53 @@ function showMainMenu() {
 // DOMContentLoaded: Başlangıç İşlemleri
 // ============================
 document.addEventListener("DOMContentLoaded", () => {
+  // Preload Keepsty logo image to make it load faster
+  const preloadImage = new Image();
+  preloadImage.src = "assets/images/keepsty-logo.png";
+  
   let currentLanguage = localStorage.getItem("currentLanguage") || "en";
   console.log(`🌍 Kullanıcının Seçtiği Dil: ${currentLanguage}`);
   console.log(`📥 Yüklenen JSON Dosyası: data/menu-${currentLanguage}.json`);
   loadMenuData(currentLanguage);
   translatePopupTexts(currentLanguage);
   translateMenuTitles(currentLanguage);
+
+  // Ensures cleaning option buttons work correctly
+  const confirmTimeBtn = document.getElementById("confirm-time");
+  if (confirmTimeBtn) {
+    confirmTimeBtn.addEventListener('click', async () => {
+      console.log("Confirm button clicked, selected option:", selectedCleanOption);
+      if (!selectedCleanOption) {
+        alert("Please select a cleaning option!");
+        return;
+      }
+      
+      try {
+        const username = localStorage.getItem("username") || "defaultUsername";
+        const roomNumber = localStorage.getItem("roomNumber") || "defaultRoomNumber";
+        showConfirmationPopup(); // Show confirmation immediately for better UX
+        
+        const response = await fetch('https://keepstyback.onrender.com/save-cleaning-option', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            username: username,
+            roomNumber: roomNumber,
+            cleaningOption: selectedCleanOption,
+            timestamp: new Date().toISOString()
+          })
+        });
+        
+        hideTimePopup();
+        const result = await response.json();
+        console.log("✅ Data saved:", result);
+      } catch (error) {
+        console.error("❌ Error saving cleaning option:", error);
+        // Still close popup, but log the error
+        hideTimePopup();
+      }
+    });
+  }
 
   // Cart butonuna olay dinleyicisi ekle
   const cartActionItem = document.getElementById('cart-action');
