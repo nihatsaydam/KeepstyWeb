@@ -52,8 +52,6 @@
             "name": "Filtre Kahve",
             "price": "149₺"
           }
-  
-          
         ]
       },
       {
@@ -248,184 +246,184 @@
         ]
       },
       {
-        "key": "Meat & Kebab",
-        "name": "Et & Kebap",
+        "key": "EtVeKebap",
+        "name": "Et ve Kebap",
         "items": [
           {
             "name": "Bonfile Şiş",
-            "description": "Marinated Beef Tenderloin Cubes (220g)",
-            "price": "770 TL"
+            "description": "Dana Bonfile Kuşbaşı Terbiyeli (220gr)",
+            "price": "770₺"
           },
           {
             "name": "Fıstıklı Zırh Kebabı",
-            "description": "Lean Ground Beef (250g), Tail Fat, Red Pepper, Pistachio",
-            "price": "650 TL"
+            "description": "Dana Kıyma Yağsız (250gr) Kuyruk Yağı, Al biber, Antep Fıstığı",
+            "price": "650₺"
           },
           {
-            "name": "Adana Kebabı (Spicy)",
-            "description": "Ground Beef (150g), Tail Fat",
-            "price": "460 TL"
+            "name": "Adana Kebabı (Acılı)",
+            "description": "Dana Kıyma (150gr), Kuyruk Yağı",
+            "price": "460₺"
           },
           {
-            "name": "Urfa Kebabı (Non-Spicy)",
-            "description": "Ground Beef (150g), Tail Fat",
-            "price": "460 TL"
+            "name": "Urfa Kebabı (Acısız)",
+            "description": "Dana Kıyma (150gr), Kuyruk Yağı",
+            "price": "460₺"
           },
           {
             "name": "Kuzu Ciğeri Şiş",
-            "description": "Lamb Liver (220g), Tail Fat, Spices",
-            "price": "550 TL"
+            "description": "Kuzu Ciğeri (220gr), Kuyruk Yağı, Baharat",
+            "price": "550₺"
           },
           {
             "name": "Fırın Sarma Kebabı",
-            "description": "Ground Beef (150g), Tomato, Pepper, Mushroom, Olive, Kashar Cheese",
-            "price": "500 TL"
+            "description": "Dana Kıyma (150gr), Domates, Biber, Mantar, Zeytin, Kaşar",
+            "price": "500₺"
           },
           {
             "name": "Özel Fırın Sarma Vejetaryen Kebap",
-            "description": "Tomato, Pepper, Mushroom, Olive, Kashar Cheese",
-            "price": "420 TL"
+            "description": "Domates, Biber, Mantar, Zeytin, Kaşar",
+            "price": "420₺"
           },
           {
             "name": "Özel Fırın Sarma Bonfile",
-            "description": "Beef Tenderloin Cubes (220g), Tomato, Pepper, Mushroom, Olive, Kashar Cheese",
-            "price": "830 TL"
+            "description": "Dana Bonfile Kuşbaşı (220gr), Domates, Biber, Mantar, Zeytin, Kaşar",
+            "price": "830₺"
           },
           {
             "name": "Özel Fırın Sarma Tavuk",
-            "description": "Chicken Cubes (250g), Tomato, Pepper, Mushroom, Olive, Kashar Cheese",
-            "price": "500 TL"
+            "description": "Tavuk Eti Kuşbaşı (250gr), Domates, Biber, Mantar, Zeytin, Kaşar",
+            "price": "500₺"
           },
           {
             "name": "Zırh Kebabı",
-            "description": "Ground Beef (250g), Tail Fat, Red Pepper",
-            "price": "600 TL"
+            "description": "Dana Kıyma (250gr), Kuyruk Yağı, Al Biber",
+            "price": "600₺"
           },
           {
             "name": "Karışık Kebap",
-            "description": "Tenderloin (110g), Chicken Skewer (110g), Adana (75g), Urfa (75g), 1 Chicken Wing, 1 Small Lahmacun",
-            "price": "860 TL"
+            "description": "Bonfile (110gr), Tavuk Şiş (110gr), Adana (75gr), Urfa (75gr), 1 Kanat, 1 Bardak Altı Lahmancun",
+            "price": "860₺"
           },
           {
             "name": "Günlük Kasap Köfte",
-            "description": "Ground Beef (250g), Meatball Seasoning",
-            "price": "520 TL"
+            "description": "Dana Kıyma (250gr), Köfte Harcı",
+            "price": "520₺"
           },
           {
             "name": "Patlıcanlı Kebap (Buharda)",
-            "description": "Whole Eggplant (Spicy or Non-Spicy), Ground Beef Kebab (150g)",
-            "price": "550 TL"
+            "description": "Acılı veya Acısız Bütün Patlıcan, Dana Kıyma Kebap (150gr)",
+            "price": "550₺"
           },
           {
             "name": "Domatesli Kebap",
-            "description": "Cooked Tomato (Spicy or Non-Spicy), Ground Beef Kebab (150g)",
-            "price": "500 TL"
+            "description": "Acılı veya Acısız Pişmiş Domates, Dana Kıyma Kebap (150gr)",
+            "price": "500₺"
           },
           {
             "name": "Vali Kebabı (İki Kişilik)",
-            "description": "Tenderloin (220g), Chicken Skewer (250g), Adana (150g), Urfa (150g), 2 Chicken Wings, Small Kashar Cheese Pide, 2 Small Lahmacuns, 4 Pieces Sarma Kebab, Meat Sauteed Casserole",
-            "price": "1900 TL"
+            "description": "Bonfile (220gr), Tavuk Şiş (250gr), Adana (150gr), Urfa (150gr), 2 Tavuk Kanat, Küçük Kaşarlı Pide, 2 Bardak Altı Lahmacun, 4 Parça Sarma Kebap, Et Sote Güveç",
+            "price": "1900₺"
           },
           {
             "name": "Tavuk Fileto Kuşbaşı",
-            "description": "Chicken Breast Cubes (250g)",
-            "price": "420 TL"
+            "description": "Tavuk (250gr)",
+            "price": "420₺"
           },
           {
             "name": "Kuzu Çöp Şiş",
-            "description": "Marinated Lamb Cubes (250g), Tail Fat",
-            "price": "750 TL"
+            "description": "Kuzu Eti Kuşbaşı (250gr) Kuyruk Yağı, Terbiyeli",
+            "price": "750₺"
           },
           {
             "name": "Vali Kebabı (Tek Kişilik)",
-            "description": "Tenderloin (110g), Chicken Skewer (110g), Adana (75g), Urfa (75g), 1 Chicken Wing, Small Kashar Cheese Pide, 1 Small Lahmacun, 2 Pieces Sarma Kebab",
-            "price": "950 TL"
+            "description": "Bonfile (110gr), Tavuk Şiş (110gr), Adana (75gr), Urfa (75gr), 1 Tavuk Kanat, Küçük Kaşarlı Pide, 1 Bardak Altı Lahmacun, 2 Parça Sarma Kebap",
+            "price": "950₺"
           },
           {
             "name": "Kanat Şiş",
-            "description": "6 Pieces of Marinated Chicken Thigh and Wing Tip",
-            "price": "420 TL"
+            "description": "6 Parça But ve Uç Kısmı Terbiyeli",
+            "price": "420₺"
           },
           {
             "name": "Sultan Sofrası",
-            "description": "Lamb Chop, Lamb Back, Beef Tenderloin Skewer, Zırh Kebab, Tomato Kebab (Prepared for 2-3-4-5 Persons Upon Request)",
-            "price": "4000 TL"
+            "description": "Pirzola, Kuzu Sırt, Bonfile Şiş, Zırh Kebabı, Domatesli Kebap (2-3-4-5 Kişilik isteğe bağlı hazırlanır.)",
+            "price": "4000₺"
           },
           {
             "name": "Alinazik Boru Kebabı",
-            "description": "Ground Beef (150g), Strained Yogurt, Roasted Eggplant, Sauce and Butter",
-            "price": "500 TL"
+            "description": "Dana Kıyma(150gr), Süzme Yoğurt, Köz Patlıcan, Sos ve Tereyağı",
+            "price": "500₺"
           },
           {
             "name": "Alinazik Bonfile",
-            "description": "Beef Tenderloin (220g), Strained Yogurt, Roasted Eggplant, Sauce and Butter",
-            "price": "870 TL"
+            "description": "Dana Bonfile(220gr), Süzme Yoğurt, Köz Patlıcan, Sos ve Tereyağı",
+            "price": "870₺"
           },
           {
             "name": "Yoğurtlu Boru Kebabı",
-            "description": "Ground Beef Kebab (150g), Flat Pita Bread, Strained Yogurt, Roasted Eggplant, Sauce and Butter",
-            "price": "500 TL"
+            "description": "Dana Kıyma Kebap(150gr), Tırnaklı Pide, Süzme Yoğurt, Köz Patlıcan, Sos ve Tereyağı",
+            "price": "500₺"
           },
           {
             "name": "Kebap İskender",
-            "description": "Ground Beef (150g), Yogurt, Sauce and Butter",
-            "price": "500 TL"
+            "description": "Dana Kıyma(150gr), Yoğurt, Sos ve Tereyağı",
+            "price": "500₺"
           },
           {
             "name": "Yoğurtlu Bonfile",
-            "description": "Beef Tenderloin Cubes (220g), Strained Yogurt, Flat Pita Bread, Sauce and Butter",
-            "price": "870 TL"
+            "description": "Dana Bonfile Kuşbaşı (220gr), Süzme Yoğurt, Tırnaklı Pide, Sos ve Tereyağı",
+            "price": "870₺"
           },
           {
             "name": "Altı Ezmeli Kuzudan",
-            "description": "Lamb Meat (250g), Roasted Tomato and Pepper, Sauce and Butter",
-            "price": "820 TL"
+            "description": "Kuzu Eti (250gr), Köz Domates ile Biber, Sos ve Tereyağı",
+            "price": "820₺"
           },
           {
             "name": "Velinazik",
-            "description": "Chicken Fillet (250g), Roasted Eggplant, Sauce and Butter",
-            "price": "470 TL"
+            "description": "Tavuk Filoto (250gr), Köz Patlıcan, Sos ve Tereyağı",
+            "price": "470₺"
           },
           {
             "name": "Altı Ezmeli Boru Kebabı",
-            "description": "Ground Beef Kebab (150g), Tail Fat, Roasted Tomato and Pepper, Sauce and Butter",
-            "price": "500 TL"
+            "description": "Dana Kıyma Kebabı (150gr), Kuyruk Yağı, Köz Domates ile Biber, Sos ve Tereyağı",
+            "price": "500₺"
           }
         ]
       },
       {
-        "key": "Beyti Special",
+        "key": "BeytiOzel",
         "name": "Beyti Özel",
         "items": [
           {
             "name": "Klasik Beyti",
-            "description": "Classic Beyti (Ground Beef Kebab 150g, Strained Yogurt, Roasted Eggplant, Sauce and Butter)",
-            "price": "500 TL"
+            "description": "Dana Kıyma Kebap 150g, Süzme Yoğurt, Köz Patlıcan, Sos ve Tereyağ",
+            "price": "500₺"
           },
           {
             "name": "Patlıcanlı Çıtır Beyti",
-            "description": "Crispy Beyti with Eggplant (Ground Beef Kebab 150g, Strained Yogurt, Roasted Eggplant, Sauce and Butter)",
-            "price": "520 TL"
+            "description": "Dana Kıyma Kebap 150g, Süzme Yoğurt, Köz Patlıcan, Sos ve Tereyağ",
+            "price": "520₺"
           },
           {
             "name": "Fıstıklı Yoğurtlu Beyti",
-            "description": "Pistachio Yogurt Beyti (Ground Beef Kebab 150g, Tail Fat, Roasted Tomato and Pepper, Sauce and Butter)",
-            "price": "600 TL"
+            "description": "Dana Kıyma Kebap 150g, Kuyruk Yağı, Köz Domates ile Biber, Sos ve Tereyağ",
+            "price": "600₺"
           },
           {
             "name": "Kızarmış Soslu Beyti",
-            "description": "Fried Sauced Beyti (Ground Beef Kebab 150g, Tail Fat, Roasted Tomato and Pepper, Sauce and Butter)",
-            "price": "520 TL"
+            "description": "Dana Kıyma Kebap 150g, Kuyruk Yağı, Köz Domates ile Biber, Sos ve Tereyağ",
+            "price": "520₺"
           },
           {
             "name": "Et Beyti Antrikot Sarma",
-            "description": "Beef Beyti Wrapped in Ribeye (Ground Beef Kebab, Sliced Beef Ribeye, Sauce and Butter)",
-            "price": "850 TL"
+            "description": "Dana Kıyma Kebap, Dana Antrikot Yaprak, Sos ve Tereyağ",
+            "price": "850₺"
           },
           {
             "name": "İç Pilavlı Kuzu Bohça (2 Kişilik)",
-            "description": "Stuffed Lamb Pouch (For 2 Persons) (Roasted Lamb 300g, Perde Pilaf with Lamb Liver, Strained Yogurt, Sauce and Butter)",
-            "price": "2000 TL"
+            "description": "Kuzu Tandır 300g, Perde Pilavı Kuzu Ciğerli, Süzme Yoğurt, Sos ve Tereyağ",
+            "price": "2000₺"
           }
         ]
       },
@@ -435,442 +433,442 @@
         "items": [
           {
             "name": "Kuzu Sırt",
-            "description": "Lamb Loin Meat with Fat, Baby Tomatoes, Spices",
-            "price": "800 TL"
+            "description": "Kuzu Lokum Eti Yağlı, Baby Domates, Baharat",
+            "price": "800₺"
           },
           {
             "name": "Yaprak Antrikot",
-            "description": "Thinly Sliced Ribeye Steak",
-            "price": "700 TL"
+            "description": "",
+            "price": "700₺"
           },
           {
             "name": "Kuzu Küşleme",
-            "description": "Lamb Tenderloin",
-            "price": "900 TL"
+            "description": "",
+            "price": "900₺"
           },
           {
             "name": "Süt Kuzu Pirzola",
-            "description": "Milk-Fed Lamb Chops",
-            "price": "900 TL"
+            "description": "",
+            "price": "900₺"
           },
           {
             "name": "Lokum Bonfile Özel Sunum",
-            "description": "Special Tenderloin Delight Presentation",
-            "price": "900 TL"
+            "description": "",
+            "price": "900₺"
           },
           {
             "name": "Dallas Steak",
             "description": "",
-            "price": "1800 TL"
+            "price": "1800₺"
           }
         ]
       },
       {
-        "key": "Sautéed Dishes",
+        "key": "SacTava",
         "name": "Saç Tava",
         "items": [
           {
-            "name": "Saçta Kuzu (For Two Persons)",
-            "description": "Fatty Lamb Meat – Lamb Chops (320g), Red Pepper, Onion, Tomato",
-            "price": "1600 TL"
+            "name": "Saçta Kuzu (İki Kişilik)",
+            "description": "Kuzu Eti Yağlı - Kuzu Pirzola (320gr) Al Biber, Soğan, Domates",
+            "price": "1600₺"
           },
           {
             "name": "Kuzu Saç Tava",
-            "description": "Fatty Lamb Meat (220g), Red Pepper, Onion, Spices",
-            "price": "850 TL"
+            "description": "Kuzu Eti Yağlı (220gr), Al Biber, Soğan, Baharat",
+            "price": "850₺"
           },
           {
             "name": "Saç Tava Bonfile",
-            "description": "Beef Tenderloin (220g), Tomato, Pepper, Onion, Spices",
-            "price": "850 TL"
+            "description": "Dana Bonfile (220gr), Domates, Biber, Soğan, Baharat",
+            "price": "850₺"
           },
           {
             "name": "Saç Tavuk Sote",
-            "description": "Chicken Meat (250g), Tomato, Pepper, Onion, Sauce",
-            "price": "500 TL"
+            "description": "Tavuk Eti (250gr), Domates, Biber, Soğan, Sos",
+            "price": "500₺"
           },
           {
             "name": "Saç Tavuk Kanat",
-            "description": "Pieces of Chicken Wings, Red Pepper, Onion, Potato",
-            "price": "500 TL"
+            "description": "6 Parça Kanat, Al Biber, Soğan, Patates",
+            "price": "500₺"
           },
           {
             "name": "Saçta Kuzu Ciğer Tava",
-            "description": "Lamb Liver (250g), Tail Fat, Red Pepper, Onion, Sauce",
-            "price": "600 TL"
+            "description": "Kuzu Ciğeri (250gr), Kuyruk Yağı, Al Biber, Soğan, Sos",
+            "price": "600₺"
           }
         ]
       },
       {
-        "key": "Casserole Dishes",
-        "name": "Güveç",
+        "key": "Kiremitte",
+        "name": "Kiremitte",
         "items": [
           {
             "name": "Güveçte Kaşarlı Mantar",
-            "description": "Mushrooms (200g), Kashar Cheese (200g), Butter",
-            "price": "320 TL"
+            "description": "Mantar (200gr), Kaşar (200gr), Tereyağı",
+            "price": "320₺"
           },
           {
             "name": "Tavuk Güveç",
-            "description": "Chicken Meat (250g), Tomato, Pepper, Onion, Kashar Cheese",
-            "price": "470 TL"
+            "description": "Tavuk eti (250gr), Domates, Biber, Soğan, Kaşar",
+            "price": "470₺"
           },
           {
             "name": "Güveçte Köfte",
-            "description": "Ground Beef (250g), Spices, Cooked Tomato and Pepper",
-            "price": "550 TL"
+            "description": "Dana Kıyma (250gr), Baharat, Pişmiş Domates ve Biber",
+            "price": "550₺"
           },
           {
             "name": "Bonfile Güveç",
-            "description": "Beef Tenderloin (220g), Tomato, Pepper, Onion, Sauce",
-            "price": "850 TL"
+            "description": "Dana Bonfile (220gr), Domates, Biber, Soğan ve Sos",
+            "price": "850₺"
           }
         ]
       },
       {
-        "key": "Pide & Lahmacun",
+        "key": "PideLahmacun",
         "name": "Pide & Lahmacun",
         "items": [
           {
-            "name": "Özel Antep Lahmacun (with Garlic)",
-            "description": "Special Antep-Style Lahmacun with Garlic",
-            "price": "175 TL"
+            "name": "Özel Antep Lahmacun Sarımsaklı",
+            "description": "",
+            "price": "175₺"
           },
           {
             "name": "Bardak Altı Lahmacun",
-            "description": "Small-Sized Lahmacun",
-            "price": "50 TL"
+            "description": "",
+            "price": "50₺"
           },
           {
             "name": "Fındık Lahmacun",
-            "description": "Medium-Sized Lahmacun",
-            "price": "100 TL"
+            "description": "",
+            "price": "100₺"
           },
           {
             "name": "Lahmacun",
-            "description": "Classic Lahmacun",
-            "price": "140 TL"
+            "description": "",
+            "price": "140₺"
           },
           {
             "name": "Kavurmalı Pide",
-            "description": "Pide with Braised Beef",
-            "price": "500 TL"
+            "description": "",
+            "price": "500₺"
           },
           {
             "name": "Lokum Pide",
-            "description": "Pide with Tenderloin",
-            "price": "370 TL"
+            "description": "",
+            "price": "370₺"
           },
           {
             "name": "Karışık Pide",
-            "description": "Mixed Pide",
-            "price": "350 TL"
+            "description": "",
+            "price": "350₺"
           },
           {
             "name": "Kaşarlı Mantarlı Pide",
-            "description": "Pide with Kashar Cheese and Mushrooms",
-            "price": "350 TL"
+            "description": "",
+            "price": "350₺"
           },
           {
             "name": "Kuşbaşılı Pide",
-            "description": "Pide with Diced Beef",
-            "price": "350 TL"
+            "description": "",
+            "price": "350₺"
           },
           {
             "name": "Süper Karışık Pide",
-            "description": "Super Mixed Pide – Rich Assorted Toppings",
-            "price": "400 TL"
+            "description": "",
+            "price": "400₺"
           },
           {
             "name": "Kıymalı Pide",
-            "description": "Pide with Ground Beef",
-            "price": "300 TL"
+            "description": "",
+            "price": "300₺"
           },
           {
             "name": "Badem Pide",
-            "description": "Special Pide",
-            "price": "350 TL"
+            "description": "",
+            "price": "350₺"
           },
           {
             "name": "Sucuklu Kaşarlı Pide",
-            "description": "Pide with Turkish Sausage and Kashar Cheese",
-            "price": "350 TL"
+            "description": "",
+            "price": "350₺"
           },
           {
             "name": "Kaşarlı Pide",
-            "description": "Pide with Kashar Cheese",
-            "price": "300 TL"
+            "description": "",
+            "price": "300₺"
           }
         ]
       },
       {
-        "key": "Pizzas & Burgers",
+        "key": "PizzaHamburger",
         "name": "Pizzalar & Hamburgerler",
         "items": [
           {
-            "name": "İtalyan (Mixed Pizza)",
-            "description": "Mixed Pizza",
-            "price": "350 TL"
+            "name": "İtalyan (Karışık Pizza)",
+            "description": "",
+            "price": "350₺"
           },
           {
             "name": "İmparator Pizza",
-            "description": "Emperor Pizza",
-            "price": "400 TL"
+            "description": "",
+            "price": "400₺"
           },
           {
             "name": "Şampiyon Pizza",
-            "description": "Champion Pizza",
-            "price": "400 TL"
+            "description": "",
+            "price": "400₺"
           },
           {
             "name": "Vejeteryan Pizza",
-            "description": "Vegetarian Pizza",
-            "price": "300 TL"
+            "description": "",
+            "price": "300₺"
           },
           {
             "name": "Margarita Kaşarlı Pizza",
-            "description": "Margherita Pizza with Kashar Cheese",
-            "price": "300 TL"
+            "description": "",
+            "price": "300₺"
           },
           {
             "name": "Kavurmalı Mantarlı Pizza",
-            "description": "Pizza with Braised Beef and Mushrooms",
-            "price": "500 TL"
+            "description": "",
+            "price": "500₺"
           },
           {
             "name": "Ançüezli Ton Balıklı Pizza",
-            "description": "Pizza with Anchovies and Tuna",
-            "price": "550 TL"
+            "description": "",
+            "price": "550₺"
           },
           {
             "name": "Hamburger",
             "description": "",
-            "price": "500 TL"
+            "price": "500₺"
           },
           {
             "name": "Burger Kid",
-            "description": "Kid's Burger",
-            "price": "300 TL"
+            "description": "",
+            "price": "300₺"
           }
         ]
       },
       {
-        "key": "Appetizers",
-        "name": "Başlangıçlar",
+        "key": "AraSicaklar",
+        "name": "Ara Sıcaklar",
         "items": [
           {
             "name": "Ezogelin Çorbası",
-            "description": "Ezogelin Soup",
-            "price": "80 TL"
+            "description": "",
+            "price": "80₺"
           },
           {
             "name": "Domates Çorbası",
-            "description": "Tomato Soup",
-            "price": "100 TL"
+            "description": "",
+            "price": "100₺"
           },
           {
             "name": "Cips Baharatlı",
-            "description": "Spicy French Fries",
-            "price": "150 TL"
+            "description": "",
+            "price": "150₺"
           },
           {
             "name": "İçli Köfte",
-            "description": "Fried Stuffed Meatballs",
-            "price": "130 TL"
+            "description": "",
+            "price": "130₺"
           },
           {
             "name": "Haşlama İçli Köfte",
-            "description": "Boiled Stuffed Meatballs",
-            "price": "110 TL"
+            "description": "",
+            "price": "110₺"
           }
         ]
       },
       {
-        "key": "Salads",
+        "key": "Salatalar",
         "name": "Salatalar",
         "items": [
           {
             "name": "Tablacı Salatası",
-            "description": "Tabla-Style Salad",
-            "price": "250 TL"
+            "description": "",
+            "price": "250₺"
           },
           {
             "name": "Çoban Salatası",
-            "description": "Shepherd's Salad",
-            "price": "180 TL"
+            "description": "",
+            "price": "180₺"
           },
           {
             "name": "Nurdağı Salatası",
-            "description": "Nurdağı Salad",
-            "price": "200 TL"
+            "description": "",
+            "price": "200₺"
           },
           {
             "name": "Special Peynirli Salata",
-            "description": "Special Cheese Salad",
-            "price": "300 TL"
+            "description": "",
+            "price": "300₺"
           },
           {
             "name": "Mevsim Salatası",
-            "description": "Seasonal Salad",
-            "price": "180 TL"
+            "description": "",
+            "price": "180₺"
           }
         ]
       },
       {
-        "key": "Complimentary Starters",
-        "name": "İkramlar",
+        "key": "Ikramlar",
+        "name": "İkramlarımız",
         "items": [
           {
             "name": "Acılı Ezme",
-            "description": "Spicy Tomato and Pepper Paste",
+            "description": "",
             "price": ""
           },
           {
             "name": "Balon Ekmek",
-            "description": "Puffed Bread",
+            "description": "",
             "price": ""
           },
           {
             "name": "Havuç Tarator",
-            "description": "Carrot Yogurt Dip",
+            "description": "",
             "price": ""
           },
           {
             "name": "Çiğ Köfte",
-            "description": "Traditional Raw Bulgur Meatballs",
+            "description": "",
             "price": ""
           },
           {
             "name": "Haydari",
-            "description": "Garlic Yogurt Dip",
+            "description": "",
             "price": ""
           }
         ]
       },
       {
-        "key": "Mezes",
+        "key": "Mezeler",
         "name": "Mezeler",
         "items": [
           {
             "name": "Muammara",
-            "description": "Roasted Eggplant, Strained Yogurt, Butter, Light Garlic",
-            "price": "100 TL"
+            "description": "Köz Patlıcan, Süzme Yoğurt, Tereyağı, Az Sarımsak",
+            "price": "100₺"
           },
           {
             "name": "Yoğurtlu Patlıcan",
-            "description": "Eggplant with Yogurt",
-            "price": "100 TL"
+            "description": "",
+            "price": "100₺"
           },
           {
             "name": "Pembe Sultan",
-            "description": "Red Beet, Strained Yogurt, Olive Oil, Light Garlic",
-            "price": "100 TL"
+            "description": "Kırmızı Pancar, Süzme Yoğurt, Zeytinyağı, Az Sarımsak",
+            "price": "100₺"
           },
           {
             "name": "Humus",
-            "description": "Boiled Chickpeas, Tahini, Spices, Light Garlic, Lemon Juice, Special Sauce",
-            "price": "100 TL"
+            "description": "Nohut haşlama, Tahin, Baharat, Az Sarımsak, Limon Suyu,Sos",
+            "price": "100₺"
           },
           {
             "name": "Abagannuş",
-            "description": "Roasted Eggplant, Olive Oil, Red Bell Pepper, Pepper Paste, Roasted Village Peppers, Spices, Onion, Walnut",
-            "price": "100 TL"
+            "description": "Köz Patlıcan, Zeytinyağı, Kapya Biber, Biber Salçası, Köz Köy Biberi, Baharat, Soğan, Ceviz",
+            "price": "100₺"
           },
           {
             "name": "Atom",
-            "description": "Dried Albanian Peppers, Strained Yogurt, Olive Oil, Garlic, Special Sauce",
-            "price": "100 TL"
+            "description": "Kuru Arnavut Biberi, Süzme Yoğurt, Zeytinyağı, Sarımsak, Sos",
+            "price": "100₺"
           }
         ]
       },
       {
-        "key": "Desserts",
+        "key": "Tatlilar",
         "name": "Tatlılar",
         "items": [
           {
             "name": "Kabak Tatlısı",
-            "description": "Pumpkin Dessert",
-            "price": "140 TL"
+            "description": "",
+            "price": "140₺"
           },
           {
             "name": "Soğuk Kadayıf",
-            "description": "Cold Kadaifi Dessert",
-            "price": "165 TL"
+            "description": "",
+            "price": "165₺"
           },
           {
             "name": "Künefe",
-            "description": "Kunefe – Traditional Cheese-filled Dessert",
-            "price": "150 TL"
+            "description": "",
+            "price": "150₺"
           },
           {
             "name": "Katmer",
-            "description": "Katmer – Thin Layered Pastry with Pistachio",
-            "price": "160 TL"
+            "description": "",
+            "price": "160₺"
           },
           {
             "name": "Midye Baklava",
-            "description": "Mussel-shaped Baklava",
-            "price": "165 TL"
+            "description": "",
+            "price": "165₺"
           },
           {
             "name": "Şöbiyet",
-            "description": "Shobiyet – Cream-filled Baklava",
-            "price": "165 TL"
+            "description": "",
+            "price": "165₺"
           },
           {
             "name": "Ev Baklavası",
-            "description": "Homemade Baklava",
-            "price": "140 TL"
+            "description": "",
+            "price": "140₺"
           },
           {
             "name": "Sütlaç",
-            "description": "Rice Pudding",
-            "price": "115 TL"
+            "description": "",
+            "price": "115₺"
           },
           {
             "name": "Profiterol",
-            "description": "Profiterole – Cream-filled Pastry with Chocolate Sauce",
-            "price": "190 TL"
+            "description": "",
+            "price": "190₺"
           },
           {
             "name": "Limonlu Cheesecake",
-            "description": "Lemon Cheesecake",
-            "price": "200 TL"
+            "description": "",
+            "price": "200₺"
           },
           {
             "name": "Lotus Cheesecake",
-            "description": "Lotus Cheesecake",
-            "price": "200 TL"
+            "description": "",
+            "price": "200₺"
           },
           {
             "name": "Çilekli Magnolia",
-            "description": "Strawberry Magnolia Pudding",
-            "price": "180 TL"
+            "description": "",
+            "price": "180₺"
           },
           {
             "name": "Browni",
-            "description": "Brownie",
-            "price": "220 TL"
+            "description": "",
+            "price": "220₺"
           },
           {
             "name": "Budapeşte",
-            "description": "Budapest Roll – Hazelnut-filled Light Pastry",
-            "price": "200 TL"
+            "description": "",
+            "price": "200₺"
           },
           {
             "name": "Tiramisu",
-            "description": "Tiramisu",
-            "price": "200 TL"
+            "description": "",
+            "price": "200₺"
           },
           {
             "name": "San Sebastian",
-            "description": "San Sebastian Basque Cheesecake",
-            "price": "220 TL"
+            "description": "",
+            "price": "220₺"
           },
           {
             "name": "Trileçe",
-            "description": "Tres Leches Cake",
-            "price": "190 TL"
+            "description": "",
+            "price": "190₺"
           }
         ]
       }
