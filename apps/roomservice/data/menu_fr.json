@@ -6,19 +6,19 @@
         "items": [
           {
             "name": "Espresso",
-            "price": "139₺"
+            "price": "109₺"
           },
           {
             "name": "Espresso Macchiato",
-            "price": "159₺"
+            "price": "129₺"
           },
           {
             "name": "Café Américain",
-            "price": "149₺"
+            "price": "139₺"
           },
           {
             "name": "Café Latte",
-            "price": "169₺"
+            "price": "159₺"
           },
           {
             "name": "Café Latte Macchiato",
@@ -26,34 +26,32 @@
           },
           {
             "name": "Cappuccino",
-            "price": "179₺"
-          },
-          {
-            "name": "Cortado",
-            "price": "169₺"
-          },
-          {
-            "name": "Flat White",
-            "price": "169₺"
-          },
-          {
-            "name": "Café Turc(Petit)",
-            "price": "129₺"
-          },
-          {
-            "name": "Café Turc(Grand)",
-            "price": "149₺"
-          },
-          {
-            "name": "Café Turc au Lait ",
             "price": "159₺"
           },
           {
+            "name": "Cortado",
+            "price": "139₺"
+          },
+          {
+            "name": "Flat White",
+            "price": "159₺"
+          },
+          {
+            "name": "Café Turc",
+            "price": "119₺"
+          },
+          {
+            "name": "Café Turc(Double)",
+            "price": "129₺"
+          },
+          {
+            "name": "Café Turc au Lait",
+            "price": "139₺"
+          },
+          {
             "name": "Café Filtré",
-            "price": "149₺"
+            "price": "139₺"
           }
-  
-          
         ]
       },
       {
@@ -61,86 +59,67 @@
         "name": "Thé",
         "items": [
           {
-            "name": "Thé",
+            "name": "Thé Noir",
             "price": "50₺"
           },
           {
             "name": "Thé Vert",
-            "price": "169₺"
+            "price": "129₺"
           },
           {
-            "name": "Thé d'hiver",
-            "price": "169₺"
+            "name": "Thé d'Hiver",
+            "price": "129₺"
           },
           {
             "name": "Thé au Jasmin",
-            "price": "169₺"
-          },
-          {
-            "name": "Thé à la Camomille",
-            "price": "169₺"
-          },
-          {
-            "name": "Thé de Sauge",
-            "price": "169₺"
-          },
-          {
-            "name": "Thé à la Menthe et au Citron",
-            "price": "169₺"
-          },
-          {
-            "name": "Thé à la Pomme et à la Cannelle",
-            "price": "169₺"
+            "price": "129₺"
           }
         ]
       },
       {
         "key": "Cold Beverages",
         "name": "Boissons froides",
+        "image": "assets/icons/beverages.png",
         "items": [
           {
             "name": "Americano Glacé",
-            "price": "185₺"
+            "price": "159₺"
           },
           {
             "name": "Caffè Latte Glacé",
-            "price": "195₺"
-          },
-          {
-            "name": "Chai Tea Latte Glacé",
-            "price": "219₺"
-          },
-          {
-            "name": "Limonade",
             "price": "179₺"
           },
           {
-            "name": "Limonade à la Fraise",
+            "name": "Chai Tea Latte Glacé",
             "price": "199₺"
+          },
+          {
+            "name": "Limonade",
+            "price": "139₺"
+          },
+          {
+            "name": "Limonade à la Fraise",
+            "price": "159₺"
           },
           {
             "name": "Limonade à la Menthe",
-            "price": "199₺"
+            "price": "159₺"
           },
           {
-            "name": "Limonade au Basilic ",
-            "price": "199₺"
+            "name": "Limonade au Basilic",
+            "price": "159₺"
           },
           {
-            "name": "Jus d'orange Fraîchement Pressé",
+            "name": "Jus d'Orange Fraîchement Pressé",
             "price": "199₺"
           },
           {
             "name": "Soda",
-            "price": "89₺"
+            "price": "79₺"
           },
           {
-            "name": "Churchill (Soda au Citron et au sel)",
-            "price": "110₺"
-          },
-          {
-            "name": "Tropical Spice",
-            "price": "209₺"
+            "name": "Churchill",
+            "price": "99₺"
           },
           {
             "name": "Berry Hibiscus",
@@ -148,38 +127,40 @@
           },
           {
             "name": "Cool Lime",
-            "price": "199₺"
+            "price": "169₺"
           }
         ]
       },
       {
         "key": "Desserts",
         "name": "Le dessert",
+        "image": "assets/icons/desserts.png",
         "items": [
           {
-            "name": "Crème au chocolat",
-            "price": "335₺"
+            "name": "Crème au Chocolat",
+            "price": "259₺"
           },
           {
-            "name": "Brownie marbré",
-            "price": "335₺"
+            "name": "Brownie Marbré",
+            "price": "279₺"
           },
           {
             "name": "Croissant",
-            "price": "330₺"
+            "price": "259₺"
           }
         ]
       },
       {
         "key": "Factory Specials",
         "name": "Factory Spéciales",
+        "image": "assets/icons/alcohol.png",
         "items": [
           {
             "name": "Frappe au Chocolat Doré",
             "price": "209₺"
           },
           {
-            "name": "Crème Frappe au Chocolat Blanc",
+            "name": "Frappe au Chocolat Blanc",
             "price": "209₺"
           },
           {
@@ -188,7 +169,7 @@
           },
           {
             "name": "Moka au Chocolat Belge Blanc",
-            "price": "209₺"
+            "price": "199₺"
           },
           {
             "name": "Moka au Chocolat Doré Glacé",
@@ -204,10 +185,14 @@
           },
           {
             "name": "Chocolat Glacé",
-            "price": "219₺"
+            "price": "199₺"
           },
           {
             "name": "Moka Glacé",
+            "price": "209₺"
+          },
+          {
+            "name": "Gold Moka",
             "price": "209₺"
           },
           {
@@ -216,7 +201,7 @@
           },
           {
             "name": "Chocolat Belge Chaud",
-            "price": "199₺"
+            "price": "189₺"
           },
           {
             "name": "Lotus Latte",
@@ -236,7 +221,7 @@
           },
           {
             "name": "Dirty Chai Tea Latte",
-            "price": "209₺"
+            "price": "199₺"
           },
           {
             "name": "Chai Tea Latte",
