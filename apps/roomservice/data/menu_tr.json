@@ -6,19 +6,19 @@
         "items": [
           {
             "name": "Espresso",
-            "price": "139₺"
+            "price": "109₺"
           },
           {
             "name": "Espresso Macchiato",
-            "price": "159₺"
+            "price": "129₺"
           },
           {
             "name": "Americano",
-            "price": "149₺"
+            "price": "139₺"
           },
           {
             "name": "Latte",
-            "price": "169₺"
+            "price": "159₺"
           },
           {
             "name": "Latte Macchiato",
@@ -30,27 +30,27 @@
           },
           {
             "name": "Cortado",
-            "price": "169₺"
+            "price": "139₺"
           },
           {
             "name": "Flat White",
-            "price": "169₺"
-          },
-          {
-            "name": "Türk Kahvesi",
-            "price": "129₺"
-          },
-          {
-            "name": "Türk Kahvesi(Double)",
-            "price": "149₺"
-          },
-          {
-            "name": "Sütlü Türk Kahvesi",
             "price": "159₺"
           },
           {
+            "name": "Türk Kahvesi",
+            "price": "119₺"
+          },
+          {
+            "name": "Türk Kahvesi(Double)",
+            "price": "129₺"
+          },
+          {
+            "name": "Sütlü Türk Kahvesi",
+            "price": "139₺"
+          },
+          {
             "name": "Filtre Kahve",
-            "price": "149₺"
+            "price": "139₺"
           }
         ]
       },
@@ -64,15 +64,15 @@
           },
           {
             "name": "Yeşil Çay",
-            "price": "169₺"
+            "price": "129₺"
           },
           {
             "name": "Kış Çayı",
-            "price": "169₺"
+            "price": "129₺"
           },
           {
             "name": "Yasemin Çayı",
-            "price": "169₺"
+            "price": "129₺"
           },
           {
             "name": "Papatya Çayı",
@@ -99,31 +99,31 @@
         "items": [
           {
             "name": "Soğuk Americano",
-            "price": "185₺"
+            "price": "159₺"
           },
           {
             "name": "Soğuk Latte",
-            "price": "195₺"
-          },
-          {
-            "name": "Soğuk Chaı Tea Latte",
-            "price": "219₺"
-          },
-          {
-            "name": "Limonata",
             "price": "179₺"
           },
           {
-            "name": "Çilekli Limonata",
+            "name": "Soğuk Chaı Tea Latte",
             "price": "199₺"
+          },
+          {
+            "name": "Limonata",
+            "price": "139₺"
+          },
+          {
+            "name": "Çilekli Limonata",
+            "price": "159₺"
           },
           {
             "name": "Naneli Limonata",
-            "price": "199₺"
+            "price": "159₺"
           },
           {
             "name": "Fesleğenli Limonata",
-            "price": "199₺"
+            "price": "159₺"
           },
           {
             "name": "Sıkma Portakal Suyu",
@@ -131,11 +131,11 @@
           },
           {
             "name": "Soda",
-            "price": "89₺"
+            "price": "79₺"
           },
           {
             "name": "Churchill",
-            "price": "110₺"
+            "price": "99₺"
           },
           {
             "name": "Tropical Spice",
@@ -147,7 +147,7 @@
           },
           {
             "name": "Cool Lime",
-            "price": "199₺"
+            "price": "169₺"
           }
         ]
       },
@@ -158,15 +158,15 @@
         "items": [
           {
             "name": "Chocolate Cream",
-            "price": "335₺"
+            "price": "259₺"
           },
           {
             "name": "Marble Brownie",
-            "price": "335₺"
+            "price": "279₺"
           },
           {
             "name": "Kruvasan",
-            "price": "330₺"
+            "price": "259₺"
           }
         ]
       },
@@ -189,7 +189,7 @@
           },
           {
             "name": "Beyaz Belçika Çikolatalı Mocha",
-            "price": "209₺"
+            "price": "199₺"
           },
           {
             "name": "Soğuk Gold Çikolatalı Mocha",
@@ -205,7 +205,7 @@
           },
           {
             "name": "Soğuk Çikolata",
-            "price": "219₺"
+            "price": "199₺"
           },
           {
             "name": "Soğuk Mocha",
@@ -217,7 +217,7 @@
           },
           {
             "name": "Sıcak Belçika Çikolata",
-            "price": "199₺"
+            "price": "189₺"
           },
           {
             "name": "Lotus Latte",
@@ -237,7 +237,7 @@
           },
           {
             "name": "Dirty Chai Tea Latte",
-            "price": "209₺"
+            "price": "199₺"
           },
           {
             "name": "Chai Tea Latte",
