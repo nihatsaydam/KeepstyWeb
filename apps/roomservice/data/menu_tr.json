@@ -26,7 +26,7 @@
           },
           {
             "name": "Cappuccino",
-            "price": "179₺"
+            "price": "159₺"
           },
           {
             "name": "Cortado",
@@ -73,22 +73,6 @@
           {
             "name": "Yasemin Çayı",
             "price": "129₺"
-          },
-          {
-            "name": "Papatya Çayı",
-            "price": "169₺"
-          },
-          {
-            "name": "Adaçayı",
-            "price": "169₺"
-          },
-          {
-            "name": "Nane-Limon Çayı",
-            "price": "169₺"
-          },
-          {
-            "name": "Elma Tarçın Çayı",
-            "price": "169₺"
           }
         ]
       },
@@ -136,10 +120,6 @@
           {
             "name": "Churchill",
             "price": "99₺"
-          },
-          {
-            "name": "Tropical Spice",
-            "price": "209₺"
           },
           {
             "name": "Berry Hibiscus",
